@@ -9,11 +9,13 @@ Stanford made one year of their "cs106b: Programming Abstractions" course open t
 - Install Xcode: Version 8.3.3 (8E3004b)
 - Install JVM
 - In terminal:
-  - from root directory of this repo, find the path
-    - enter into the root directory: `cd stanford-cs106b`
-    - print path for current working directory: `pwd`
+  - clone repository `git clone https://github.com/LauraKirby/stanford-cs106b.git`
+  - move into the root directory of stanford-cs106b:
+    - `cd stanford-cs106b`
+  - from here, print the current working directory:
+    - `pwd`
     - my path looks like: `/Users/laurakirby/Desktop/stanford-cs106b`
-  - set environment variable that states where the spl.jar file is.
+  - Stanford has done some extra work to standardize how the programs are run. You will need to set an environment variable that lets your program know where to find the spl.jar file.
     - `launchctl setenv SPL_HOME '/your/path/from/pwd`
 
 ### Sources
